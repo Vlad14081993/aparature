@@ -1,0 +1,263 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+
+        // google fonts
+        link(rel="preconnect" href="https://fonts.googleapis.com")
+        link(rel="preconnect" href="https://fonts.gstatic.com" crossorigin)
+        link(link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet")
+        
+        // style main
+        link(rel="stylesheet", href="./assets/css/style.css")
+        // reset
+        link(rel="stylesheet", href="./assets/css/reset.css")
+    body 
+
+        // Header
+        header.header#header 
+            .container 
+                .header__wr 
+                    img.header__logo(src="./assets/img/header_logo.png", alt="logo")
+                    nav.header__nav 
+                        ul.header__list
+                            li.header__item
+                                a(href="#") Business areas
+                            li.header__item
+                                a(href="#") Featured images
+                            li.header__item
+                                a(href="#") Gear cage
+                            li.header__item
+                                a(href="#") Contact
+                        a.header__btn(href="#") Get template
+        
+        // Main content
+        main.content#content 
+            // home section
+            section.home#home
+                .container 
+                    .home__wr-txt
+                        span.home__subtitle.text--uppercase Photographer & Filmmaker
+                        h1.home__title Aperture Studios
+                        p.home__text Lorem ipsum dolor sit amet, consectetur 
+                                     | adipiscing elit. Suspendisse varius enim 
+                                     | in eros elementum tristique. Duis 
+                                     | cursus, mi quis viverra ornare, 
+                                     | eros dolor interdum nulla, ut commodo diam 
+                                     | libero vitae erat. Aenean faucibus nibh 
+                                     | et justo cursus id rutrum lorem imperdiet. 
+                                     | Nunc ut sem vitae risus tristique posuere.
+                    .options 
+                        ul.options__list
+                            li.options__item
+                                span 1/2000s
+                            li.options__item
+                                span f/11
+                            li.options__item
+                                span 100
+                            li.options__item
+                                span Iceland
+            
+            // What we do
+            section.we-do
+                .container 
+                    .we-do__wrapp 
+                        h2.we-do__title What we do.
+                        span.we-do__txt The areas that we're specialized in.
+                    .we-do__cart
+                        ul.we-do__list
+                            li.we-do__item
+                                span.we-do__item-title.text--uppercase Product Photography
+                                p.we-do__item-txt Cras commodo consequat orci, 
+                                                | in convallis risus egestas non.
+                                                | Nulla efficitur auctor hendrerit. 
+                                                | Etiam ut orci varius, faucibus libero ac, 
+                                                | cursus quam.
+                                a.we-do__btn.btn(href="#!") Read more
+
+                            li.we-do__item
+                                span.we-do__item-title.text--uppercase Architecture Photography
+                                p.we-do__item-txt Aenean porta neque eget 
+                                                | consequat fringilla. Vestibulum ultrices, 
+                                                | orci nec egestas pharetra, ligula est semper 
+                                                | enim, nec auctor sapien leo nec purus.
+                                                | Fusce tincidunt aliquet sapien, sit 
+                                                | amet rhoncus leo imperdiet nec.
+                                a.we-do__btn.btn(href="#!") Read more
+
+                            li.we-do__item
+                                span.we-do__item-title.text--uppercase Drone Photography
+                                p.we-do__item-txt Mauris euismod elit et 
+                                                | nisi ultrices, ut faucibus orci tincidunt.
+                                                | Duis tristique sed lorem a vestibulum.
+                                                | Cras commodo consequat orci, in convallis 
+                                                | risus egestas non. Nulla efficitur auctor hendrerit.
+                                                | Etiam ut orci varius, faucibus libero ac, cursus quam.
+                                a.we-do__btn.btn(href="#!") Read more
+
+                            li.we-do__item
+                                span.we-do__item-title.text--uppercase Wildlife Photography
+                                p.we-do__item-txt Lorem ipsum dolor sit amet, 
+                                                | consectetur adipiscing elit. Nullam scelerisque
+                                                | aliquam odio et faucibus. Nulla rhoncus feugiat 
+                                                | eros quis consectetur. Morbi neque ex, condimentum
+                                                | dapibus congue et, vulputate ut ligula. Vestibulum 
+                                                | sit amet urna turpis.
+                                a.we-do__btn.btn(href="#!") Read more
+
+            // Japan
+            section.japan#japan
+                .container 
+                    .japan__block
+                        .japan__wrapp-txt
+                            h3.japan__title.text--uppercase Sunset at Mount Fuji 
+                            p.japan__text Duis tristique sed lorem a vestibulum. 
+                                    | Cras commodo consequat orci, in 
+                                    | convallis risus egestas non.
+                        .options.japan__options 
+                            ul.options__list
+                                li.options__item
+                                    span 1"
+                                li.options__item
+                                    span f/16
+                                li.options__item
+                                    span 400
+                                li.options__item
+                                    span Japan
+            
+            // The Gear cage
+            section.gear#gear 
+                .container 
+                    .gear__wrapp 
+                        .gear__block-1 
+                            span.gear__subtitle The Gear cage
+                            .gear__title The tools that we use.
+                            p.gear__text The say that "no place is boring if 
+                                        | you've had a good night's sleep and have a pocket 
+                                        | full of unexposed film". While we don't shoot (a lot)
+                                        | of film these days — these are the tools that we 
+                                        | actually use everyday to capture the amazing 
+                                        | things around us.
+                            a.gear__btn(href="#!").btn Check it out
+                        .gear__block-2
+                            .options.gear__options
+                            ul.options__list.gear__list
+                                li.options__item
+                                    span 0,8"
+                                li.options__item
+                                    span f/5,6
+                                li.options__item
+                                    span 100
+                                li.options__item
+                                    span Sweden
+
+            // Costa Rica
+            section.costa 
+                .container 
+                    .costa__block
+                        .costa__wrapp-txt
+                            h3.costa__title.text--uppercase Monstera Leafs 
+                            p.costa__text Vestibulum sit amet urna turpis. 
+                                        | Mauris euismod elit et nisi ultrices, ut faucibus
+                                        | orci tincidunt.
+                    .options.costa__options 
+                            ul.options__list
+                                li.options__item
+                                    span 1/400s
+                                li.options__item
+                                    span f/3,5
+                                li.options__item
+                                    span 100
+                                li.options__item
+                                    span Costa Rica
+
+            // Past clients
+            section.clients
+                .container 
+                    .clients__wrapp-txt 
+                        h2.clients__title Past clients
+                        p.clients__subtitle Trusted by your favourite companies
+
+                    .clients__wrapp-img 
+                        img.clients__img(src="./assets/img/IMAGE1.svg", alt="logotype")
+                        img.clients__img(src="./assets/img/IMAGE2.svg", alt="logotype")
+                        img.clients__img(src="./assets/img/IMAGE3.svg", alt="logotype")
+                        img.clients__img(src="./assets/img/IMAGE4.svg", alt="logotype")
+                        img.clients__img(src="./assets/img/IMAGE5.svg", alt="logotype")
+
+            // Nepal
+            section.nepal 
+                .container 
+                    .nepal__block
+                        .nepal__wrapp-txt
+                            h3.nepal__title.text--uppercase Star fall in the Himalayas 
+                            p.nepal__text Nulla rhoncus feugiat 
+                                        | eros quis consectetur. Morbi neque ex, 
+                                        | condimentum dapibus congue et, vulputate ut ligula.
+                        .options.nepal__options 
+                            ul.options__list
+                                li.options__item
+                                    span 6"
+                                li.options__item
+                                    span f/11
+                                li.options__item
+                                    span 800
+                                li.options__item
+                                    span Nepal
+
+            // Need help with photography or videography?
+            section.need-help 
+                .container 
+                    .need-help__box 
+                        h2.need-help__title Need help with photography or videography?
+                        span.need-help__subtitle We're here for you!
+                        a.need-help__btn.btn(href="#!") Get in touch
+        
+        // Footer
+        footer.footer#footer 
+            .container 
+                .footer__box 
+                    .footer__box-logo 
+                        img.footer__logo(src="/assets/img/header_logo.png", alt="logo")
+                        p.footer__logo-txt Photographers & videographers capturing the world around us.
+                    .footer__box-menu
+                        nav.footer__nav-box 
+                            div.footer__menu-list 
+                                span.footer__menu-title.text--uppercase Business areas
+                                a.footer__menu-item(href="#!") Product Photography
+                                a.footer__menu-item(href="#!") Architecture Photography
+                                a.footer__menu-item(href="#!") Drone Photography
+                                a.footer__menu-item(href="#!") Wildlife Photography
+                            
+                            div.footer__menu-list 
+                                span.footer__menu-title.text--uppercase Pages
+                                a.footer__menu-item(href="#!") Gear cage
+                                a.footer__menu-item(href="#!") Featured images
+                                a.footer__menu-item(href="#!") Contact
+                                a.footer__menu-item(href="#!") Style guide
+                                a.footer__menu-item(href="#!") Instructions
+                                a.footer__menu-item(href="#!") Changelog
+                        
+                .footer__box-subscribe
+                    .footer__subscribe-box-txt    
+                        span.footer__subscribe-txt.text--uppercase Subscribe to our newsletter
+                        span.footer__subscribe-subtitle Read about all the things we do.
+                    .footer__subscribe-box-form 
+                        a.footer__btn.btn(href="#!") 
+
+                .footer__box-social 
+                    span.footer__social-txt © Aperture Photography, 
+                                          | Inc. All rights reserved. Licensing.
+                    .footer__social-wrap 
+                        a.footer__social-btn-tw(href="#!") 
+                        a.footer__social-btn-in(href="#!") 
+                        a.footer__social-btn-fa(href="#!") 
+
+
+
+
+
+
